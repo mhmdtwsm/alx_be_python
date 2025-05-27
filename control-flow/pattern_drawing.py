@@ -5,6 +5,3 @@ while i <= l:
         print("*", end="")
     print()
     i += 1
-    # Hello
-    # Hello
-    # Hello
