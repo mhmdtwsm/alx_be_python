@@ -4,11 +4,14 @@ num2 = int(input("Enter the second number:"))
 
 opt = input("Choose the operation (+, -, *, /):")
 
-if opt == "+":
-    print(f"The result is {num1 + num2}")
-elif opt == "-":
-    print(f"The result is {num1 - num2}")
-elif opt == "*":
-    print(f"The result is {num1 * num2}")
-elif opt == '/':
-    print(f"The result is {num1 / num2}")
+match opt:
+    case "+":
+        print(f"The result is {num1 + num2}")
+    case "-":
+        print(f"The result is {num1 - num2}")
+    case "*":
+        print(f"The result is {num1 * num2}")
+    case "/":
+        print(f"The result is {num1 / num2}")
+    case _:
+        print("Invalid operation")
