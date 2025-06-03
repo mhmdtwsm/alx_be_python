@@ -1,6 +1,7 @@
 from shopping_list_manager import perform_operation
 
 
+# Main
 def main():
     print("Arithmetic Operations")
     num1 = float(input("Enter the first number: "))
