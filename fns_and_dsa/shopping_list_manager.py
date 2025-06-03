@@ -19,7 +19,6 @@ def main():
             pass
         elif choice == "2":
             item = input("Enter name of item to remove: ")
-
             if item not in shopping_list:
                 print("item not in the list\n")
             else:
