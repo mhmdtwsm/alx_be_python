@@ -1,12 +1,12 @@
-import datetime as dt
+from datetime import datetime, timedelta, date
 
 
 def display_current_datetime():
-    return dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
 def calculate_future_date(n):
-    return dt.date.today() + dt.timedelta(n)
+    return date.today() + timedelta(days=n)
 
 
 current_date = display_current_datetime()
