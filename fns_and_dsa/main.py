@@ -1,4 +1,5 @@
-from shopping_list_manager import perform_operation
+from arithmetic_operations import perform_operation
+import shopping_list_manager
 
 
 # Main
@@ -12,6 +13,8 @@ def main():
 
     result = perform_operation(num1, num2, operation)
     print(f"Result: {result}")
+
+    shopping_list_manager
 
 
 if __name__ == "__main__":
